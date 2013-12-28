@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/doubleshot/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/doubleshot/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/doubleshot/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+  vendor/htc/doubleshot/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/doubleshot/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/doubleshot/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
   vendor/htc/doubleshot/proprietary/lib/libgsl.so:system/lib/libgsl.so \
