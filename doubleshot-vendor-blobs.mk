@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/htc/doubleshot/proprietary/lib/hw/vendor-camera.msm8660.so:obj/lib/vendor-camera.msm8660.so \
+	vendor/htc/doubleshot/proprietary/lib/hw/camera.vendor.msm8660.so:obj/lib/camera.vendor.msm8660.so \
 	vendor/htc/doubleshot/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/doubleshot/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/htc/doubleshot/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/doubleshot/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/doubleshot/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/doubleshot/proprietary/etc/vpimg:system/etc/vpimg \
-  vendor/htc/doubleshot/proprietary/lib/hw/vendor-camera.msm8660.so:/system/lib/hw/vendor-camera.msm8660.so \
+  vendor/htc/doubleshot/proprietary/lib/hw/camera.vendor.msm8660.so:/system/lib/hw/camera.vendor.msm8660.so \
   vendor/htc/doubleshot/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/doubleshot/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/doubleshot/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
