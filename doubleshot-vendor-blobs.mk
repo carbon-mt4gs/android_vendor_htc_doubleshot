@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/doubleshot/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/htc/doubleshot/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
+PRODUCT_COPY_FILES += vendor/htc/doubleshot/proprietary/app/Camera2.apk:system/app/Camera2.apk
+
 PRODUCT_COPY_FILES += \
   vendor/htc/doubleshot/proprietary/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd:system/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd \
   vendor/htc/doubleshot/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
